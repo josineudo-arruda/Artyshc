@@ -1,7 +1,11 @@
 div {
     background-color: rgba(218, 218, 218, 0.452);
-    width: 30vw;
+    width: 20vw;
     height: 100vh;
+}
+
+li span {
+    margin-right: 10px;
 }
 
 ul li {
