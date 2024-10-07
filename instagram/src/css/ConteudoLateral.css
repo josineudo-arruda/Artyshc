@@ -1,0 +1,40 @@
+div.LastItem, li {
+    display: flex;
+    align-items: baseline;
+    padding: 10px 0;
+    margin-bottom: 5px;
+    font-size: 15pt;
+    color: white;
+    font-weight: 200;
+}
+
+li span, div.LastItem span {
+    margin: 0 10px 0 15px;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+li:hover, div.LastItem:hover {
+    transition: 0.5s ease-in;
+    background-color: rgba(177, 177, 177, 0.116);
+    font-weight: 300;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+div img {
+    width: 150px;
+    padding: 10px;
+}
+
+.Logo {
+    display: flex;
+    justify-content: center;
+}
