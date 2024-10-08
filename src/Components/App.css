@@ -1,0 +1,19 @@
+body {
+    background-color: 121212;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    display: flex;
+    flex-direction: row;
+}
+
+.AsideContent {
+    display: flex;
+    justify-content: space-around;
+}
