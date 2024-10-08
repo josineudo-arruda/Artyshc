@@ -1,4 +1,5 @@
-import ConteudoLateral from './ConteudoLateral.js'
+import ConteudoLateral from './ConteudoLateral/ConteudoLateral.js'
+import ConteudoPrincipal from './ConteudoPrincipal/ConteudoPrincipal.js'
 import '../css/App.css';
 
 function App() {
@@ -6,9 +7,7 @@ function App() {
     <div className="App">
       <ConteudoLateral />
 
-      <div className='ConteudoLateral'>
-        
-      </div>
+      <ConteudoPrincipal />
     </div>
   );
 }

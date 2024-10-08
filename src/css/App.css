@@ -1,0 +1,59 @@
+body {
+    background-color: #121212;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    display: flex;
+    flex-direction: row;
+}
+
+.Stories{
+    padding: 10px;
+    width: 40vw;
+    height: 130px;
+}
+
+.ConteudoPrincipal {
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+}
+
+.Postagens{
+    width: 40vw;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.ConteudoLateral {
+    display: flex;
+    flex-direction: column;
+    width: 17vw;
+    height: 100vh;
+    background-color: #121212;
+    border-right: 1px solid #282828;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 50px;
+    background-color: blue;
+}
+
+.menuLateral {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.menuLateral li {
+    margin-bottom: 10px;
+}

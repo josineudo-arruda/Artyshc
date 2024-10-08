@@ -1,38 +1,40 @@
-div {
-    background-color: rgba(218, 218, 218, 0.452);
-    width: 20vw;
-    height: 100vh;
-}
-
-li span {
-    margin-right: 10px;
-}
-
-ul li {
-    padding: 10px;
-    border-radius: 10px;
+div.LastItem, li {
+    display: flex;
+    align-items: baseline;
+    padding: 10px 0;
     margin-bottom: 5px;
     font-size: 15pt;
+    color: white;
+    font-weight: 200;
 }
 
-ul li:hover {
+li span, div.LastItem span {
+    margin: 0 10px 0 15px;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+li:hover, div.LastItem:hover {
     transition: 0.5s ease-in;
-    background-color: rgb(177, 177, 177);
-    color: white;
-    font-weight: 6  00;
+    background-color: rgba(177, 177, 177, 0.116);
+    font-weight: 300;
 }
 
 ul {
-    padding: 10px;
-    list-style-type:none;
+    padding: 0;
+    list-style-type: none;
 }
 
 div img {
-    width: 100px;
+    width: 150px;
+    padding: 10px;
 }
 
 .Logo {
     display: flex;
-    justify-content: center;    
-    height: auto;
+    justify-content: center;
 }
