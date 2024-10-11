@@ -1,4 +1,43 @@
-div.ReferenceContent .Reference img {
-    width: 20px;
-    height: 20px;
+div.ReferenceContent .Reference div img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
 }
+
+div.ReferenceContent h3 {
+    font-weight: 400;
+    padding: 10px;
+}
+
+div.ReferenceContent hr {
+    border: 0.1px #3a1e31 solid;
+}
+
+div.ReferenceContent .Reference {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.ReferenceContent .Reference span {
+    margin-left: 8px;
+    align-content: center;
+}
+
+div.ReferenceContent .Reference div {
+    display: flex;
+}
+
+div.ReferenceContent .Reference button {
+    padding: 8px;
+    background-color: #3a1e31;
+    border: none;
+    border-radius: 5px;
+    color: #e7dee4;
+}
+
+div.ReferenceContent .Reference button:hover {
+    color: #3a1e31;
+    background-color: #e7dee4;
+}
+

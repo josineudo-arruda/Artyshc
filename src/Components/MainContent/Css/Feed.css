@@ -10,6 +10,7 @@ div.MainContent .Stories {
     -moz-box-shadow: -1px 5px 30px 11px rgba(0,0,0,0.29);
     box-shadow: -1px 5px 30px 11px rgba(0,0,0,0.29);
     text-align: center;
+    justify-content: center;
 }
 
 div.MainContent .Stories .Story img {
@@ -57,7 +58,7 @@ div.MainContent .Feed .Post .InfoTop {
 }
 
 div.MainContent .Feed .Post {
-    margin-bottom: 20px;
+    margin-bottom: 8px;
 }
 
 div.MainContent .Feed .Post .InfoTop div {
@@ -82,7 +83,6 @@ div.MainContent .Feed .Post .InfoTop img {
 
 div.MainContent .Feed .Post .PhotoPost {
     width: 100%;
-    height: 400px;
 }
 
 div.MainContent .Feed .Post .Actions {
@@ -109,4 +109,5 @@ div.MainContent .Feed .TextPost {
 div.MainContent .Feed .CommentsPost {
     margin-left: 25px;
     color: rgba(255, 255, 255, 0.486);
+    margin-bottom: 10px;
 }

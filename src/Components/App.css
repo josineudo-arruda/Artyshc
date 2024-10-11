@@ -52,6 +52,7 @@ body {
 }
 
 .ReferenceContent {
+    font-family: "Montserrat", sans-serif;
     margin-top: 20px;
     width: 20vw;
     border: 1px #3a1e31 solid;
@@ -61,4 +62,5 @@ body {
     display: flex;
     flex-direction: column;
     border-radius: 5px;
+    height: 360px;
 }
