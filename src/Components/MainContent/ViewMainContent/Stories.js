@@ -11,7 +11,6 @@ export default function Stories() {
             <Story user='savoryjump' photo='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvvE94agjuhDTqMTENobimkk9xkWI76H20Pg&s' />
             <Story user='livingco' photo='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9a_6bWVwi59-EJc2SBxw8jpLFdwqMKRdq0Q&s' />
             <Story user='yaru' photo='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2d1UTLRT4bjq3odlpSJpGdmUsWrRpdB6U6Q&s' />
-            <Story user='wan' photo='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvkAetnrCSszD8LB42QO07D5XNkzn8-zLmTlSPTiZ23XQ404aJ00GOOy6Ec3T1ViAkZ8M&usqp=CAU' />
         </div>
     );
 }
