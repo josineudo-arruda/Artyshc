@@ -1,7 +1,7 @@
 import MainContent from './MainContent/MainContent.js'
 import AsideContent from './AsideContent/AsideContent.js'
 
-import 'App.css'
+import './App.css'
 
 export default function App() {
     return (

@@ -1,6 +1,6 @@
 export default function Story(props) {
     <div className="Story">
-        <img></img>
-        <span></span>
+        <img src={props.photo} alt='Foto de Story'></img>
+        <span>{props.user}</span>
     </div>
 }

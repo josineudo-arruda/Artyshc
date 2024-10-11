@@ -1,5 +1,7 @@
-import Stories from "../../Components/MainContent/ViewMainContent/Stories.js";
-import Feed from '../../Components/MainContent/ViewMainContent/Feed.js';
+import Stories from '../MainContent/ViewMainContent/Stories.js';
+import Feed from '../MainContent/ViewMainContent/Feed.js';
+
+import './Css/Feed.css'
 
 export default function MainContent() {
     return (

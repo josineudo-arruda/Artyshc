@@ -1,4 +1,4 @@
-import '../Css/ListItem.js'
+import '../Css/ListItem.css'
 
 export default function ListItem(props) {
     return (

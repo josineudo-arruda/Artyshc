@@ -1,0 +1,15 @@
+div.MainContent .Stories {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    border: 1px solid #27051c;
+}
+
+div.MainContent .Stories .Story img {
+    width: 20px;
+    
+}
+
+div.MainContent .Stories .Story {
+    background-color:rgb(25, 78, 124);
+}

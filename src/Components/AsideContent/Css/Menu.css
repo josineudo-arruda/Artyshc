@@ -1,0 +1,35 @@
+div.AsideContent a {
+    text-decoration: none;
+    color: currentColor;
+    font-size: 20px;
+    font-weight: 300;
+    margin-right: 10px;
+}
+
+div.AsideContent .Logo img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+div.AsideContent .Logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+}
+
+div.AsideContent .Logo b {
+    margin-left: 10px;
+}
+
+ul.Items {
+    list-style-type: none;
+}
+
+ul.Items li, div.Menu div {
+    padding: 10px;
+}
+
+ul.Items li:hover {
+    background-color: #330725;
+}

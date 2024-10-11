@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     background-color: 121212;
 }
@@ -8,12 +10,31 @@ body {
     box-sizing: border-box;
 }
 
+body {
+    background-color: #d6ccd6;
+}
+
 .App {
     display: flex;
     flex-direction: row;
 }
 
 .AsideContent {
+    font-family: "Montserrat", sans-serif;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
+    width: 17vw;
+    height: 100vh;
+    background-color: #27051c;
+    color: white;
+}
+
+.MainContent {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-top: 15px;
+    justify-content: center;
 }
