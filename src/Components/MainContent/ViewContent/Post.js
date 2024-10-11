@@ -1,8 +1,8 @@
 import { CiMenuKebab } from "react-icons/ci";
-import { FaRegHeart } from "react-icons/fa";
+import { FaHeart } from "react-icons/fa";
 import { MdAutoAwesomeMosaic } from "react-icons/md";
-import { FiSend } from "react-icons/fi";
-import { FaRegComments } from "react-icons/fa6";
+import { BsFillSendFill } from "react-icons/bs";
+import { FaComments } from "react-icons/fa";
 
 export default function Post(props) {
     return (
@@ -22,9 +22,9 @@ export default function Post(props) {
             <div className="InfoBottom">
                 <div className="Actions">
                     <div>
-                        <span><FaRegHeart /></span>
-                        <span><FaRegComments /></span>
-                        <span><FiSend /></span>
+                        <span><FaHeart /></span>
+                        <span><FaComments /></span>
+                        <span><BsFillSendFill /></span>
                     </div>
 
                     <div>
