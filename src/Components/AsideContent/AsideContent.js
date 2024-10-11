@@ -1,4 +1,4 @@
-import ListItem from './ViewAsideContent/LisItem.js'
+import ListItem from './ViewContent/LisItem.js'
 
 import logo from '../../Assets/Images/Main/logo.png'
 

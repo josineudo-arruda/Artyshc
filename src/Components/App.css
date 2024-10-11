@@ -11,7 +11,8 @@ body {
 }
 
 body {
-    background-color: #d6ccd6;
+    background-color: #141414;
+    color: white;
 }
 
 .App {
@@ -26,15 +27,20 @@ body {
     justify-content: space-around;
     width: 17vw;
     height: 100vh;
-    background-color: #27051c;
     color: white;
+    position: fixed;
+    border-right: 1px #3a1e31 solid;
+    -webkit-box-shadow: -1px 5px 30px 11px rgba(0,0,0,0.29);
+    -moz-box-shadow: -1px 5px 30px 11px rgba(0,0,0,0.29);
+    box-shadow: -1px 5px 30px 11px rgba(0,0,0,0.29);
 }
 
 .MainContent {
-    width: 50vw;
+    width: 40vw;
     display: flex;
     flex-direction: column;
     border-radius: 5px;
     margin-top: 15px;
     justify-content: center;
+    margin: 0 auto;
 }
