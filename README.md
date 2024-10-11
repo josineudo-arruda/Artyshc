@@ -1,6 +1,6 @@
 # Artyshc
 
-<img src="public/mockup.jpg" style="width: 100%">
+<img src="public/mockup.jpeg" style="width: 100%">
 
 Bem-vindo ao **Artyshc** – uma plataforma inovadora projetada para artistas! Combinando o melhor de dois mundos, **Artyshc** oferece uma experiência similar ao Instagram, com funcionalidades inspiradas no Pinterest para potencializar sua criatividade.
 
