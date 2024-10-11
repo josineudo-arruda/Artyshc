@@ -10,7 +10,7 @@ export default function Post(props) {
             <div className="InfoTop">
                 <div>
                     <img src={props.userPhoto} alt="Foto do Usuário"></img>
-                    <span>{props.user}</span>
+                    <b>{props.user}</b>
                 </div>
                 <div>
                     <span><CiMenuKebab /></span>

@@ -1,5 +1,5 @@
-import Stories from './ViewContent/Stories.js';
-import Feed from './ViewContent/Feed.js';
+import Stories from './ViewMainContent/Stories.js';
+import Feed from './ViewMainContent/Feed.js';
 
 import './Css/Feed.css'
 

@@ -32,6 +32,11 @@ div.MainContent .Stories .Story :first-of-type {
     margin-right: 10px;
     display: flex;
     flex-direction: column;
+    font-size: 12px;
+}
+
+div.MainContent .Feed .Post .InfoTop div span {
+    margin-bottom: 20px;
 }
 
 div.MainContent .Feed {
@@ -48,15 +53,25 @@ div.MainContent .Feed {
 div.MainContent .Feed .Post .InfoTop {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 10px 10px 0px 10px;
 }
 
 div.MainContent .Feed .Post {
     margin-bottom: 20px;
 }
 
-div.MainContent .Feed .Post .InfoTop div:first-of-type span {
-    margin-left: 5px;
+div.MainContent .Feed .Post .InfoTop div {
+    display: flex;
+}
+
+div.MainContent .Feed .Post .InfoTop div b {
+    margin-top: 3px;
+    margin-left: 8px;
+    font-weight: 500;
+}
+
+div.MainContent .Feed .Post .InfoTop div span {
+    margin-top: 3px;
 }
 
 div.MainContent .Feed .Post .InfoTop img {

@@ -39,9 +39,26 @@ body {
     width: 40vw;
     display: flex;
     flex-direction: column;
-    border-radius: 5px;
-    margin-top: 15px;
     justify-content: center;
     margin: 0 auto;
+}
+
+.AppSide {
+    margin-left: 25vw;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    width: 70vw;
+}
+
+.ReferenceContent {
+    margin-top: 20px;
+    width: 20vw;
+    border: 1px #3a1e31 solid;
+    -webkit-box-shadow: -1px 5px 30px 11px rgba(0,0,0,0.29);
+    -moz-box-shadow: -1px 5px 30px 11px rgba(0,0,0,0.29);
+    box-shadow: -1px 5px 30px 11px rgba(0,0,0,0.29);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
 }
